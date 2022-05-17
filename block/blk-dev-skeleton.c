@@ -13,7 +13,7 @@
 
 #define __SUCCESS 0
 
-static const char *c_p_blkdev_name = MODULE_NAME;
+static const char *c_p_blkdev_name = MODULE_NAME;  
 
 static int major = 0;
 
