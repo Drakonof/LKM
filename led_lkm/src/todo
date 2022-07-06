@@ -1,0 +1,17 @@
+jira -
+
+code meta +
+comments meta +
+make gcc +/- (.build is needed)
+make insmod, rmmod, mknod, rm nod, chmod ++--+
+gitignore +
+git meta -  (meta add, meta fix, meta rwv)
+gdb -
+bash test +- (dts vertion is needed)
+cppcheck -
+misra -
+code clear and deleting all tabs and etc. extra white spaces -
+doxygen comments -
+make doxygen -
+make realese -
+git -
