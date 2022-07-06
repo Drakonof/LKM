@@ -1,0 +1,17 @@
+/dts-v1/;
+/plugin/;
+/ {
+	compatible = "brcm,bcm2835";
+	fragment@0 {
+		target-path = "/";
+		__overlay__ {
+			led-gpio-device {
+				compatible = "led-lkm,dev";
+				status = "okay";
+				label = "release";
+				value = <4>;
+				led-gpio = <&gpio 4 0>; 
+			};
+		};
+	};
+};
