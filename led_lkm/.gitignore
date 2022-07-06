@@ -1,0 +1,10 @@
+!.gitignore
+!README.md
+*.dtbo
+*.ko
+*.o
+*.mod
+*.mod.*
+*.order
+*.symvers
+
